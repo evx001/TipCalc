@@ -1,6 +1,6 @@
 // Xcode6 version
 import UIKit
-
+import Foundation
 
 class TipCalculator {
     var total: Double
@@ -18,8 +18,7 @@ class TipCalculator {
     self.total = total // "self." added here for for uniquness
     self.taxPct = taxPct // and here as well.
 
-// subTotal = total / (taxPct + 1) // subtotal has no conflict
-// replaced by the subTotal property above
+
 
     }
 
@@ -44,8 +43,8 @@ class TipCalculator {
 }
 
 
-let tipCalc = TipCalculator (total: 33.25, taxPct: 0.0875)
-tipCalc.returnPossibleTips()
+// let tipCalc = TipCalculator (total: 33.25, taxPct: 0.0875)
+// tipCalc.returnPossibleTips()
 
 
 
