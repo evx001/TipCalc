@@ -10,22 +10,26 @@
 	<string>TipCalc</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>232C3B925F3E56509D0349E01062B1C1386B25CE</key>
+		<string>https://github.com/evx001/TipCalc.git</string>
 		<key>2AA23A170C033F16AACB7B4B006E7D36578372CD</key>
 		<string>github.com:evx001/demoIOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TipCalc/TipCalc.xcodeproj</string>
+	<string>TipCalc.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>232C3B925F3E56509D0349E01062B1C1386B25CE</key>
+		<string>../..</string>
 		<key>2AA23A170C033F16AACB7B4B006E7D36578372CD</key>
-		<string>../../..</string>
+		<string>../../../Demo</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:evx001/demoIOS.git</string>
+	<string>https://github.com/evx001/TipCalc.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2AA23A170C033F16AACB7B4B006E7D36578372CD</string>
+	<string>232C3B925F3E56509D0349E01062B1C1386B25CE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>2AA23A170C033F16AACB7B4B006E7D36578372CD</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Demo</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>232C3B925F3E56509D0349E01062B1C1386B25CE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TipCalc</string>
 		</dict>
 	</array>
 </dict>

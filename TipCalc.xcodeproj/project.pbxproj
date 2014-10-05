@@ -13,6 +13,7 @@
 		60932A1319E0C22300FE27AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60932A1219E0C22300FE27AA /* Images.xcassets */; };
 		60932A1619E0C22300FE27AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60932A1419E0C22300FE27AA /* LaunchScreen.xib */; };
 		60932A2219E0C22300FE27AA /* TipCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60932A2119E0C22300FE27AA /* TipCalcTests.swift */; };
+		60932A2C19E0C37F00FE27AA /* TipCalculator.swift in Resources */ = {isa = PBXBuildFile; fileRef = 60932A2B19E0C37F00FE27AA /* TipCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		60932A1B19E0C22300FE27AA /* TipCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60932A2019E0C22300FE27AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60932A2119E0C22300FE27AA /* TipCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcTests.swift; sourceTree = "<group>"; };
+		60932A2B19E0C37F00FE27AA /* TipCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				60932A0B19E0C22300FE27AA /* AppDelegate.swift */,
+				60932A2B19E0C37F00FE27AA /* TipCalculator.swift */,
 				60932A0D19E0C22300FE27AA /* ViewController.swift */,
 				60932A0F19E0C22300FE27AA /* Main.storyboard */,
 				60932A1219E0C22300FE27AA /* Images.xcassets */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60932A1119E0C22300FE27AA /* Main.storyboard in Resources */,
+				60932A2C19E0C37F00FE27AA /* TipCalculator.swift in Resources */,
 				60932A1619E0C22300FE27AA /* LaunchScreen.xib in Resources */,
 				60932A1319E0C22300FE27AA /* Images.xcassets in Resources */,
 			);
