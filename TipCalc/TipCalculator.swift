@@ -32,11 +32,19 @@ class TipCalculator {
         let possibleTipsExplicit:[Double] = [0.15,0.18,0.20]
 
         var retval = [Int: Double]()
-        for possibleTip in possibleTipsInferred {
-        let intPct = Int(possibleTip * 100)
-
-        retval[intPct] = calcTipWithTipPct(possibleTip)
+        /////////////////////////////////
+        var keys = Array(possibleTip.keys)
+        sort(&keys)
+        for tipPct in Keys {
+            let tipValue = possibleTip[tipPct]!
+            let prettyTipValue = String (format:"%.2f",tipValue)
+            results += "\(tipPct)%: \(prettyTipValue)\n"
         }
+//        for possibleTip in possibleTipsInferred {
+//        let intPct = Int(possibleTip * 100)
+//
+//        retval[intPct] = calcTipWithTipPct(possibleTip)
+//        }
         return retval
     }
 
